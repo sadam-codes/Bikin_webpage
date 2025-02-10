@@ -23,7 +23,7 @@ const Navbar = () => {
           </button>
 
           <ul
-            className={`lg:flex lg:space-x-6 text-gray-700 font-medium absolute left-0 w-full lg:w-auto bg-fuchsia-100 lg:bg-transparent transition-all duration-300 ease-in ${
+            className={`lg:flex lg:space-x-6 text-gray-700 font-medium absolute left-0 w-full lg:w-auto bg-slate-100 lg:bg-transparent transition-all duration-300 ease-in ${
               isOpen ? "block" : "hidden"
             } lg:flex z-50 lg:static top-16`}
           >
@@ -67,7 +67,7 @@ const Navbar = () => {
                 className="hover:text-blue-500 focus:outline-none"
                 onClick={() => setDropdownOpen(!dropdownOpen)}
               >
-                Dropdown ▼
+                Dropdown
               </button>
               {dropdownOpen && (
                 <ul className="absolute left-0 lg:left-auto mt-2 bg-white shadow-lg rounded-md w-48 z-50">
