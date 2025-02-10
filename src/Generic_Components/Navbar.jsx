@@ -91,7 +91,7 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <button className="hidden md:block bg-slate-300 text-blue-500 px-6 py-2 rounded-md font-semibold whitespace-nowrap">
+          <button className="hidden md:block bg-slate-300 text-blue-500 px-6 py-2 rounded-md font-semibold whitespace-nowrap hover:bg-black hover:text-white cursor-pointer">
             Get Started
           </button>
         </div>

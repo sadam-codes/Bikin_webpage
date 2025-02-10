@@ -11,7 +11,7 @@ const Header = () => {
         We are a team of talented designers making websites with Bootstrap and
         Tailwind.
       </p>
-      <button className="mt-6 px-6 py-2 bg-blue-500 text-white font-semibold rounded-md shadow-md hover:bg-blue-600 transition">
+      <button className="mt-6 px-6 py-2 bg-blue-500 text-white font-semibold rounded-md shadow-md hover:bg-black transition cursor-pointer">
         Get Started
       </button>
       <div className="mt-8">
