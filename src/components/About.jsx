@@ -43,37 +43,15 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center space-x-32 mx-auto">
-        <img
-          src={citrus}
-          alt="No Display"
-          className="w-20 h-20 object-contain"
-        />
-        <img
-          src={askme}
-          alt="No Display"
-          className="w-20 h-20 object-contain"
-        />
-        <img
-          src={client}
-          alt="No Display"
-          className="w-20 h-20 object-contain"
-        />
-        <img
-          src={ghost}
-          alt="No Display"
-          className="w-20 h-20 object-contain"
-        />
-        <img
-          src={belimo}
-          alt="No Display"
-          className="w-20 h-20 object-contain"
-        />
-        <img
-          src={askFm}
-          alt="No Display"
-          className="w-20 h-20 object-contain"
-        />
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 mx-auto bg-slate-100 p-4">
+        {[citrus, askme, client, ghost, belimo, askFm].map((src, index) => (
+          <img
+            key={index}
+            src={src}
+            alt="No Display"
+            className="w-20 h-20 object-contain mx-4"
+          />
+        ))}
       </div>
     </>
   );
