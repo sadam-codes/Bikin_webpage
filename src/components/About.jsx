@@ -50,6 +50,7 @@ const About = () => {
             src={src}
             alt="No Display"
             className="w-20 h-20 object-contain mx-4"
+            loading="lazy"
           />
         ))}
       </div>

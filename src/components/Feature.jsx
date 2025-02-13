@@ -14,7 +14,7 @@ const FeatureSection = ({ heading, text, image, reverse }) => {
         <p className="text-gray-600 mt-2">{text}</p>
       </div>
       <div>
-        <img src={image} alt="Display" className="w-100" />
+        <img src={image} alt="Display" className="w-100" loading="lazy"/>
       </div>
     </div>
   );
